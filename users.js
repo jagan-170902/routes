@@ -1,6 +1,6 @@
 const express=require('express')
 const router=express.Router()
-const users=[{name:'Gugan'}]
+const users=[{name:'Jagan'}]
 router.get('/',(req,res) => {
     res.send('Users list')
 })
